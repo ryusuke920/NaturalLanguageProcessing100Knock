@@ -10,7 +10,6 @@ union = X | Y
 intersection = X & Y
 difference = X - Y
 
-
 print('X:', X)
 print('Y:', Y)
 print('和集合:', union)
