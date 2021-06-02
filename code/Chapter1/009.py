@@ -14,7 +14,6 @@ def shuffle(words):
     
     return ' '.join(result)
 
-
 words = "I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
 ans = shuffle(words)
 
