@@ -6,6 +6,7 @@ def ngram(n, lst):
   return list(zip(*[lst[i:] for i in range(n)]))
 
 str = 'I am an NLPer'
+# １つずらした状態でzipとしてみていく
 words_bi_gram = ngram(2, str.split())
 chars_bi_gram = ngram(2, str)
 
